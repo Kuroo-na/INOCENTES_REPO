@@ -11,10 +11,8 @@ if page == "Home":
     st.write("Plan your next trip with ease! This interactive app lets you:")
     st.markdown("""
     - 🔍 Search hotels by location, dates, and budget  
-    - 🛏️ Book rooms with extras like breakfast or spa access  
-    - 📊 View a dashboard of bookings and trends  
+    - 🛏️ Book rooms with extras like breakfast or spa access    
     """)
-    st.image("https://upload.wikimedia.org/wikipedia/commons/6/6e/Hotel_room.jpg", caption="Your comfort, our priority")
     st.success("Use the sidebar to start exploring!")
 
 # About Page
