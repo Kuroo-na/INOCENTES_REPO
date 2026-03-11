@@ -3,7 +3,19 @@ import datetime
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to:", ["About", "Search Hotels", "Booking"])
+page = st.sidebar.radio("Go to:", ["Home", "Search Hotels", "Booking", "About"])
+
+# Home Page
+if page == "Home":
+    st.title("🏨 Welcome to Hotel Booking Hub")
+    st.write("Plan your next trip with ease! This interactive app lets you:")
+    st.markdown("""
+    - 🔍 Search hotels by location, dates, and budget  
+    - 🛏️ Book rooms with extras like breakfast or spa access  
+    - 📊 View a dashboard of bookings and trends  
+    """)
+    st.image("https://upload.wikimedia.org/wikipedia/commons/6/6e/Hotel_room.jpg", caption="Your comfort, our priority")
+    st.success("Use the sidebar to start exploring!"
 
 # About Page
 if page == "About":
