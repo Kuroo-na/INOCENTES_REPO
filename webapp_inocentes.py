@@ -8,7 +8,7 @@ page = st.sidebar.radio("Go to:", ["About", "Search Hotels", "Booking"])
 # About Page
 if page == "About":
     st.title("Hotel Booking Site")
-    st.write("This app helps travelers book hotels quickly.")
+    st.write("This site helps Travelers book hotels quickly.")
     st.write("Target users: Travelers looking for easy reservations.")
     st.write("Inputs: location, dates, guests.")
     st.write("Outputs: hotel suggestions and booking confirmation.")
