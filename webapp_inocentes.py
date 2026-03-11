@@ -15,7 +15,7 @@ if page == "Home":
     - 📊 View a dashboard of bookings and trends  
     """)
     st.image("https://upload.wikimedia.org/wikipedia/commons/6/6e/Hotel_room.jpg", caption="Your comfort, our priority")
-    st.success("Use the sidebar to start exploring!"
+    st.success("Use the sidebar to start exploring!")
 
 # About Page
 if page == "About":
